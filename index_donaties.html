@@ -1,41 +1,60 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport"
-        content="widith=device-widith,
-        initial-scale=1,0" />
-        <title>Doneren</title>
-        <link rel="stylesheet" href="style.css" />
-    </head>
-    <body>  
-        <nav class="navbar">
-            <div class="navbar__container">
-                <a href="#" id="navbar__logo">KWFjudo</a>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Doneren - KWFjudo</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>  
+<nav class="navbar">
+    <div class="navbar__container">
+        <a href="index_hoofdpagina.html" id="navbar__logo">KWFjudo</a>
+        
+        <div class="navbar__toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        
+        <ul class="navbar__menu">
+            <li class="navbar__item">
+                <a href="index_hoofdpagina.html" class="navbar__links">Home</a>
+            </li>
+            <li class="navbar__item">
+                <a href="index_donaties.html" class="navbar__links">Donaties</a>
+            </li>
+            <li class="navbar__item">
+                <a href="index_meerinformatie.html" class="navbar__links">Infoline</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+    <section class="content-section">
+        <div class="section-container">
+            <div class="card">
+                <h1>Steun het KWF</h1>
+                <h3>Kies een bedrag dat je wilt doneren aan kankeronderzoek. Jouw bijdrage maakt een direct verschil in de levens van patiënten.</h3>
                 
-                <div class="navbar__toggle" id="mobile-menu">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
+                <div class="donation-input-group">
+                    <span style="font-size: 1.5rem; font-weight: bold;">€</span>
+                    <input type="number" placeholder="25" min="1">
+                    <button class="main__btn" style="margin-top: 0;">Doneer Nu</button>
                 </div>
                 
-                <ul class="navbar__menu">
-                    <li class="navbar__item">
-                        <a href="index_hoofdpagina.html" class="navbar__links">home</a>
-                    </li>
-                    <li class="navbar__item">
-                        <a href="#" class="navbar__links">donaties</a>
-                    </li>
-                    <li class="navbar__item">
-                        <a href="index_meerinformatie.html" class="navbar__links">infoline</a>
-                    </li>
-                </ul>
+                <hr style="opacity: 0.1; margin: 30px 0;">
+                
+                <h2 style="color: var(--text-main); margin-bottom: 10px;">Wat doen wij met jouw donatie?</h2>
+                <p style="color: var(--text-muted); max-width: 700px;">
+                    Met jouw geld organiseren we bewustwordingscampagnes en investeren we in baanbrekend kankeronderzoek. 
+                    Hierdoor kunnen we betere behandelingen ontwikkelen en de overlevingskans vergroten.
+                </p>
+
+                <a href="index_hoofdpagina.html" class="back-link">&larr; Terug naar de hoofdpagina</a>
             </div>
-        </nav>
-        <script src="app.js"></script>
-    <h3>Hier kan je doneren. Eerst moet je wel een aantal euro in het doos hieronder schrijven.</h3>
-        <h1><b>Maar eerst, wat doen wij met het donatie geld?</b></h1>
-        <h3>Met het donatie geld doen wij veel dingen, we gebruiken het om meer 'awareness campaigns' te organiseren. We geven ook een deel uit and kanker onderzoek!</h3>
-        <h3>Hier kan je terug:<a href="index_hoofdpagina.html">hier</a></h3>
-    </body>
+        </div>
+    </section>
+
+    <script src="app.js"></script>
+</body>
 </html>

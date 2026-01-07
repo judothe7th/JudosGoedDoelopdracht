@@ -1,38 +1,52 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport"
-        content="widith=device-widith,
-        initial-scale=1,0" />
-        <title>Contact/infoline</title>
-        <link rel="stylesheet" href="style.css" />
-    </head>
-    <body> 
-        <nav class="navbar">
-            <div class="navbar__container">
-                <a href="#" id="navbar__logo">KWFjudo</a>
-                
-                <div class="navbar__toggle" id="mobile-menu">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Infoline - KWFjudo</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body> 
+<nav class="navbar">
+    <div class="navbar__container">
+        <a href="index_hoofdpagina.html" id="navbar__logo">KWFjudo</a>
+        
+        <div class="navbar__toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        
+        <ul class="navbar__menu">
+            <li class="navbar__item">
+                <a href="index_hoofdpagina.html" class="navbar__links">Home</a>
+            </li>
+            <li class="navbar__item">
+                <a href="index_donaties.html" class="navbar__links">Donaties</a>
+            </li>
+            <li class="navbar__item">
+                <a href="index_meerinformatie.html" class="navbar__links">Infoline</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+    <section class="content-section">
+        <div class="section-container" style="text-align: center;">
+            <div class="card">
+                <h1 style="font-size: 2.5rem;">Contact & Infoline</h1>
+                <div style="margin: 40px 0;">
+                    <div style="font-size: 4rem; margin-bottom: 20px;">📞</div>
+                    <h2 style="color: var(--text-main);">Infoline is momenteel gesloten</h2>
+                    <p style="color: var(--text-muted); margin-top: 15px;">
+                        Er is momenteel geen telefoonnummer of e-mailadres beschikbaar voor deze schoolopdracht. 
+                        Voor officiële vragen kun je terecht op de website van het KWF.
+                    </p>
                 </div>
-                
-                <ul class="navbar__menu">
-                    <li class="navbar__item">
-                        <a href="index_hoofdpagina.html" class="navbar__links">home</a>
-                    </li>
-                    <li class="navbar__item">
-                        <a href="index_donaties.html" class="navbar__links">donaties</a>
-                    </li>
-                    <li class="navbar__item">
-                        <a href="#" class="navbar__links">infoline</a>
-                    </li>
-                </ul>
+                <a href="index_hoofdpagina.html" class="main__btn">Terug naar Home</a>
             </div>
-        </nav>
-        <script src="app.js"></script>
-        <h1><b>Er is hier geen telephoon nummer/email om te bellen</b></h1>
-    </body>
+        </div>
+    </section>
+
+    <script src="app.js"></script>
+</body>
 </html>
