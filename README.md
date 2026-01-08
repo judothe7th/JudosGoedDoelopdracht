@@ -1,0 +1,1 @@
+De code hierna is door Judo gemaakt voor zijn portofolio dat hij wil gebruiken voor zijn nieuwe school. Het gaat over de goede doel oefen opdracht die andere leerlingen die al gestart zijn al hebben gemaakt. Ik heb de tutorial 'https://www.youtube.com/watch?v=FazgJVnrVuI' gevolged om het te maken. Als je de website wilt gebruiken kan je naar `index_hoofdpagina.html` gaan. 
